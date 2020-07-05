@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sidekick</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+   
+    <header id="entete" class="secondary-section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">SK</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Fonctionnement <span class="sr-only">(current)</span></a>
+                
+                <a class="nav-item nav-link" href="#">prix</a>
+                <a class="nav-item nav-link" href="#">Utilisateurs</a>
+                <a class="nav-item nav-link" href="#">Témoignages</a>
+                
+              </div>
+            </div>
+          </nav>
+                
+    </header>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/header1.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/header2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/header3.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/header4.png" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="bg-green mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center text-white mb-5 mt-5">
+            Comment ça marche ?
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img src="img/howto.jpg" alt="How to">
+            <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#exampleModal">Play</button>
+          </div>
+          <div class="col-3 text-white">
+            <ul style="margin-left: 200px; margin-right: 500px">
+              <li style="width: 80px">Une solution simple</li>
+              <li style="width: 80px">Une solution rapide</li>
+            </ul>
+          </div>
+          <div class="col-3 text-white" style="margin-left: 0px">
+            <ul>
+              <li style="width: 80px">Une solution économique</li>
+              <li style="width: 80px">Une solution écologique</li>
+            </ul>
+          </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-12 text-center mt-5 mb-5">
+          <strong>Prix</strong>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="p-5">
+            <div class="text-center font-weight-bold">Free</div> 
+            <p>100 recherches / jour </p>
+            <p>20 messages privés / </p>
+            <p>jour </p> 
+            <p>Recherche par centre d'intérêts </p>
+            <div class="text-center font-weight-bold"><p>0 &euro; </p></div>
+          </div>
+          <div class="p-5">
+            <div class="text-center font-weight-bold">Pro</div> 
+            <p>1000 recherches / jour </p>
+            <p>Messages privés illimités</p>
+            <p>Recherche par centre d'intérêts</p>
+            <p>Recherche par géolocalisation</p>
+            <div class="text-center font-weight-bold"><p>1.07 &euro; </p></div>
+          </div>
+          <div class="p-5">
+            <div class="text-center font-weight-bold">Pro+</div> 
+            <p>Recherches illimitées</p>
+            <p>Messages privés illimités</p>
+            <p>Recherche par centre d'intérêts </p>
+            <p>Recherche par géolocalisation</p>
+            <div class="text-center font-weight-bold"><p>4.27 &euro; </p></div>
+          </div>        
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-green">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center text-white mb-5 mt-5 font-weight-bold">
+            Témoignages
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4">
+            <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block portrait" src="img/bertrand.png" alt="Bertrand">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block portrait" src="img/didier.png" alt="Didier">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block portrait" src="img/laurent.png" alt="Laurent">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>  
+          </div>
+          <div class="col-4"></div>
+        </div>
+        <div class="row text-white text-center mt-3">
+          <div class="col-12">
+            <p>Je recommande à tout le monde. J'ai trouvé de vrais amis en Bertand et Laurent gràce à Sidekick</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <iframe id="Geeks3" width="450" height="350" src="media/howto.mp4" frameborder="0"
+           allowfullscreen> 
+        </iframe> 
+      </div>
+    </div>
+  </div>
+</div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
